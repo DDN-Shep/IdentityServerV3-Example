@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validus.Identity.Server", "Validus.Identity.Server\Validus.Identity.Server.csproj", "{40C35CC0-24BD-45AF-98E9-FC6475F78E08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pysco68.Owin.Authentication.Ntlm", "..\..\GitHub\ThirdParty\Pysco68.Owin.Authentication.Ntlm-master\src\Pysco68.Owin.Authentication.Ntlm\Pysco68.Owin.Authentication.Ntlm.csproj", "{A4FC00D0-C098-4759-836B-6B6AAD7A8895}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "..\..\GitHub\ThirdParty\IdentityServer3-master\source\Core\Core.csproj", "{FB9E026E-BAB3-498A-A954-B93B05C146A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host.Configuration", "..\..\GitHub\ThirdParty\IdentityServer3-master\source\Host.Configuration\Host.Configuration.csproj", "{9FE87DA1-73E0-4929-BC04-9249901D007A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host.Web", "..\..\GitHub\ThirdParty\IdentityServer3-master\source\Host.Web\Host.Web.csproj", "{C41ECC23-BB27-4BDD-990E-4908B872F12C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host.Console", "..\..\GitHub\ThirdParty\IdentityServer3-master\source\Host.Console\Host.Console.csproj", "{2A37BE5E-9D29-4264-81AA-6624746169BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework", "..\..\GitHub\ThirdParty\IdentityServer3.Samples-master\source\EntityFramework\SelfHost\EntityFramework.csproj", "{F0B58CB4-548B-4934-84D3-8003160FF046}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		AzureWebSites|Any CPU = AzureWebSites|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40C35CC0-24BD-45AF-98E9-FC6475F78E08}.AzureWebSites|Any CPU.ActiveCfg = Release|Any CPU
+		{40C35CC0-24BD-45AF-98E9-FC6475F78E08}.AzureWebSites|Any CPU.Build.0 = Release|Any CPU
+		{40C35CC0-24BD-45AF-98E9-FC6475F78E08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C35CC0-24BD-45AF-98E9-FC6475F78E08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C35CC0-24BD-45AF-98E9-FC6475F78E08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C35CC0-24BD-45AF-98E9-FC6475F78E08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4FC00D0-C098-4759-836B-6B6AAD7A8895}.AzureWebSites|Any CPU.ActiveCfg = Release|Any CPU
+		{A4FC00D0-C098-4759-836B-6B6AAD7A8895}.AzureWebSites|Any CPU.Build.0 = Release|Any CPU
+		{A4FC00D0-C098-4759-836B-6B6AAD7A8895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4FC00D0-C098-4759-836B-6B6AAD7A8895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4FC00D0-C098-4759-836B-6B6AAD7A8895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4FC00D0-C098-4759-836B-6B6AAD7A8895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB9E026E-BAB3-498A-A954-B93B05C146A5}.AzureWebSites|Any CPU.ActiveCfg = AzureWebSites|Any CPU
+		{FB9E026E-BAB3-498A-A954-B93B05C146A5}.AzureWebSites|Any CPU.Build.0 = AzureWebSites|Any CPU
+		{FB9E026E-BAB3-498A-A954-B93B05C146A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB9E026E-BAB3-498A-A954-B93B05C146A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB9E026E-BAB3-498A-A954-B93B05C146A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB9E026E-BAB3-498A-A954-B93B05C146A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FE87DA1-73E0-4929-BC04-9249901D007A}.AzureWebSites|Any CPU.ActiveCfg = Release|Any CPU
+		{9FE87DA1-73E0-4929-BC04-9249901D007A}.AzureWebSites|Any CPU.Build.0 = Release|Any CPU
+		{9FE87DA1-73E0-4929-BC04-9249901D007A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FE87DA1-73E0-4929-BC04-9249901D007A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FE87DA1-73E0-4929-BC04-9249901D007A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FE87DA1-73E0-4929-BC04-9249901D007A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C41ECC23-BB27-4BDD-990E-4908B872F12C}.AzureWebSites|Any CPU.ActiveCfg = AzureWebSites|Any CPU
+		{C41ECC23-BB27-4BDD-990E-4908B872F12C}.AzureWebSites|Any CPU.Build.0 = AzureWebSites|Any CPU
+		{C41ECC23-BB27-4BDD-990E-4908B872F12C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41ECC23-BB27-4BDD-990E-4908B872F12C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C41ECC23-BB27-4BDD-990E-4908B872F12C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C41ECC23-BB27-4BDD-990E-4908B872F12C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A37BE5E-9D29-4264-81AA-6624746169BB}.AzureWebSites|Any CPU.ActiveCfg = Release|Any CPU
+		{2A37BE5E-9D29-4264-81AA-6624746169BB}.AzureWebSites|Any CPU.Build.0 = Release|Any CPU
+		{2A37BE5E-9D29-4264-81AA-6624746169BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A37BE5E-9D29-4264-81AA-6624746169BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A37BE5E-9D29-4264-81AA-6624746169BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A37BE5E-9D29-4264-81AA-6624746169BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0B58CB4-548B-4934-84D3-8003160FF046}.AzureWebSites|Any CPU.ActiveCfg = Release|Any CPU
+		{F0B58CB4-548B-4934-84D3-8003160FF046}.AzureWebSites|Any CPU.Build.0 = Release|Any CPU
+		{F0B58CB4-548B-4934-84D3-8003160FF046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0B58CB4-548B-4934-84D3-8003160FF046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0B58CB4-548B-4934-84D3-8003160FF046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0B58CB4-548B-4934-84D3-8003160FF046}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
